@@ -11,7 +11,7 @@ def generate_pie_chart(labels, values):
   fig, ax = plt.subplots()
   ax.pie(values, labels=labels) # Aquí se le indica cuales son los lebels.
   ax.axis('equal')
-  plt.savefig('chart_pie.png') # Guarda el archivo.
+  plt.savefig('chart_pie_01.png') # Guarda el archivo.
   plt.close()
 
 if __name__ == '__main__':

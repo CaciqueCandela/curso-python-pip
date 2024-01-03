@@ -9,7 +9,7 @@ def run():
   '''
 
   df = pd.read_csv('data.csv')
-  df2 = df[df['Continent'] == 'Africa']
+  df2 = df[df['Continent'] == 'Africa'] # Se enumera el dataframes (df2) por jerarquía.
 
   countries = df['Country'].values
   percentages = df['World Population Percentage'].values

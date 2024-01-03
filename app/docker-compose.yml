@@ -4,4 +4,4 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/app
+      - .:/app # Enlace a los archivos.
